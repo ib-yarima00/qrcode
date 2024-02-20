@@ -23,17 +23,23 @@
     }
 
     body {
+      margin: 0;
       background-color: hsl(212, 45%, 89%);
       font-family: 'Outfit', sans-serif;
     }
-    .main{
+
+    .main {
       display: flex;
       justify-content: center;
       align-items: center;
+      min-height: 100vh;
+      padding: 30px;
+      box-sizing: border-box;
     }
-    .container{
+
+    .container {
       background-color: hsl(0, 0%, 100%);
-      max-width: 1440px;
+      max-width: 320px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -41,7 +47,7 @@
       text-align: center;
       padding: 10px;
       border-radius: 10px;
-      margin-top: 54px;
+      box-sizing: border-box;
     }
   </style>
 </head>
@@ -49,13 +55,13 @@
 <body>
   <div class="main">
     <div class="container">
-      <div><img src="images/image-qr-code.png" width="300px" style="border-radius: 10px;"></div>
-  
-      <h3 style="color: hsl(218, 44%, 22%);">Improve your front-end  <br> skills by building projects</h3>
-  
+      <div><img src="images/image-qr-code.png" alt="img" width="100%" style="border-radius: 10px;" /></div>
+
+      <h3 style="color: hsl(218, 44%, 22%);">Improve your front-end <br> skills by building projects</h3>
+
       <p style="font-size: 15px; color: hsl(220, 15%, 55%); margin-top: -3px; margin-bottom: 20px;">
         Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br>the next level</p>
-  
+
       <!-- <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Your Name Here</a>.
